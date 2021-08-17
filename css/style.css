@@ -1,0 +1,192 @@
+/* ------------------------ */
+/*    --- INDEX HTML ---    */
+/* ------------------------ */
+
+
+/* --- TABLE DES STYLES --- */
+/*                          */
+/*  CONTENUS GENERIQUES     */
+/*                          */
+/*  HEADER                  */
+/*  NAVBAR                  */
+/*  MAIN                    */
+/*  FOOTER                  */
+/*                          */
+/*  ----------------------- */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body.acceuil{
+    background-color: #F6F6F6;
+}
+
+/* HEADER */
+
+header{
+    background-color: #359E7B;
+}
+
+/* NAVBAR */
+
+header img{
+    float: left;
+}
+
+header ul{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+header ul li{
+    margin: 15px 0;
+    display: inline-block;
+}
+
+header ul li a{
+    color: #F6F6F6;
+    padding: 15px;
+}
+
+/* FIN NAVBAR */
+
+/* FIN HEADER */
+
+/* MAIN */
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main div{
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #359E7B;
+}
+
+h1, h2, h3{
+    text-transform: uppercase; 
+}
+
+h1, h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2{
+    text-decoration:underline;
+}
+
+h2, h3{
+    color: #006083;
+}
+
+div p.dateTime{
+    color:grey;
+    font-weight: bold;
+}
+
+
+div p a{
+    display: block;
+    text-align:right;
+    color: #359E7B
+}
+
+.moreAndMore{
+    display:block;
+    background-color: #359E7B;
+    max-width: 250px;
+    color:#FFFFFF;
+    padding:15px;
+    margin: 40px auto;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+/* FIN MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: darkgrey;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+
+/* FIN FOOTER */
+
+/* ------------------------ */
+/*   --- CONTACT HTML ---   */
+/* ------------------------ */
+
+/* --- TABLE DES STYLES --- */
+/*                          */
+/*  CONTENUS GENERIQUES     */
+/*                          */
+/*  MAIN                    */
+/*                          */
+/*  ----------------------- */
+
+body{
+    overflow-y: scroll;
+}
+/* MAIN */
+
+h1.titreform{
+    text-align: center;
+    text-transform: uppercase;
+    color: #359E7B;
+}
+
+form.form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form input, .form textarea{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid #359E7B;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form textarea{
+    /* resize: none;  */
+    max-width: 700px;
+    max-height: 250px;
+    min-width: 700px;
+    min-height: 250px;
+    border: 2px solid #359E7B;
+}
+
+.envoi{
+    background-color: #359E7B;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* FIN MAIN */

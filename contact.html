@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TP1 - les sélecteurs">
+    <link href="css/style.css" rel="stylesheet">
+    <title>TP1 - Formulaire</title>
+</head>
+<body class="contact">
+
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html" title="Redirection vers l'acceuil"><img src="src/css.svg" title="Image CSS" alt="Image CSS"></a>
+                <li><a href="index.html" title="Redirection vers l'acceuil">Acceuil</a></li>
+                <li><a href="contact.html" title="Redirection vers la page 1">Contact</a></li>
+                <li><a href="" title="Redirection vers la page 2">Onglet 2</a></li>
+                <li><a href="" title="Redirection vers la page 3">Onglet 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titreform">Formulaire de contact</h1>
+
+        <form method="POST" action="#" class="form">
+            <input type="text" id="firstname" name="firstname" placeholder="Votre nom" class="firstname">
+            <input type="text" id="subject" name="subject" placeholder="Votre sujet" class="subject">
+            <textarea rows="5" cols="30" id="msg" name="msg" placeholder="Votre message" class="msg"></textarea>
+            <input type="submit" id="submit" name="submit" value="Envoyer le form" class="envoi">
+        </form>
+    </main>
+    
+</body>
+</html>
